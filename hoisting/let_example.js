@@ -1,9 +1,9 @@
 function loadUserProfiles(userNames){
     if(userNames.length > 3){
-        var slowMessage = "This could take a while";
+        let slowMessage = "This could take a while";
         displayMessage(slowMessage);
     } else {
-        var fastMessage = "Loading users";
+        let fastMessage = "Loading users";
         displayMessage(fastMessage);
     }
 
