@@ -1,3 +1,5 @@
+"use strict";
+
 function loadUserProfiles(userNames){
     if(userNames.length > 3){
         let slowMessage = "This could take a while";
